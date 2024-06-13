@@ -10,7 +10,7 @@ export default function 구구단출력end별찍기() {
   };
   const 배수 = () => {
     for (let a = 1; a <= 9; a++) {
-      if (a === 3 || a === 6 || a === 9) {
+      if (a % 3 === 0) {
         document.write(a + "단");
         document.write("<br />");
         for (let b = 1; b <= 9; b++)
