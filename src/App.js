@@ -4,7 +4,6 @@ import "./css/header_footer.css";
 import Contents1 from "./component/contents1";
 import Contents2 from "./component/contents2";
 import 구구단출력end별찍기 from "./component/contents3";
-import 계산기 from "./component/contents4";
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,7 +19,6 @@ function App() {
           <Route exact path="/component" element={<Contents1 />} />
           <Route exact path="/component2" element={<Contents2 />} />
           <Route exact path="/component3" element={<구구단출력end별찍기 />} />
-          <Route exact path="/component4" element={<계산기 />} />
         </Routes>
         <Footer />
       </Router>
