@@ -1,4 +1,5 @@
 export default function 구구단출력end별찍기() {
+  // test
   const 전체 = () => {
     for (let a = 1; a <= 9; a++) {
       document.write(a + "단");
